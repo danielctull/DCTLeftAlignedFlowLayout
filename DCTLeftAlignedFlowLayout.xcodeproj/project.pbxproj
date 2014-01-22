@@ -10,23 +10,7 @@
 		2470485D188FEE010007589C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2470485C188FEE010007589C /* Foundation.framework */; };
 		24704862188FEE010007589C /* DCTLeftAlignedFlowLayout.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 24704861188FEE010007589C /* DCTLeftAlignedFlowLayout.h */; };
 		24704864188FEE010007589C /* DCTLeftAlignedFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 24704863188FEE010007589C /* DCTLeftAlignedFlowLayout.m */; };
-		2470486B188FEE010007589C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2470486A188FEE010007589C /* XCTest.framework */; };
-		2470486C188FEE010007589C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2470485C188FEE010007589C /* Foundation.framework */; };
-		2470486E188FEE010007589C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2470486D188FEE010007589C /* UIKit.framework */; };
-		24704871188FEE010007589C /* libDCTLeftAlignedFlowLayout.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 24704859188FEE010007589C /* libDCTLeftAlignedFlowLayout.a */; };
-		24704877188FEE010007589C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 24704875188FEE010007589C /* InfoPlist.strings */; };
-		24704879188FEE010007589C /* DCTLeftAlignedFlowLayoutTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 24704878188FEE010007589C /* DCTLeftAlignedFlowLayoutTests.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		2470486F188FEE010007589C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 24704851188FEE010007589C /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 24704858188FEE010007589C;
-			remoteInfo = DCTLeftAlignedFlowLayout;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		24704857188FEE010007589C /* CopyFiles */ = {
@@ -46,12 +30,8 @@
 		2470485C188FEE010007589C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		24704861188FEE010007589C /* DCTLeftAlignedFlowLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DCTLeftAlignedFlowLayout.h; sourceTree = "<group>"; };
 		24704863188FEE010007589C /* DCTLeftAlignedFlowLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DCTLeftAlignedFlowLayout.m; sourceTree = "<group>"; };
-		24704869188FEE010007589C /* DCTLeftAlignedFlowLayoutTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DCTLeftAlignedFlowLayoutTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2470486A188FEE010007589C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		2470486D188FEE010007589C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		24704874188FEE010007589C /* DCTLeftAlignedFlowLayoutTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DCTLeftAlignedFlowLayoutTests-Info.plist"; sourceTree = "<group>"; };
-		24704876188FEE010007589C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		24704878188FEE010007589C /* DCTLeftAlignedFlowLayoutTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DCTLeftAlignedFlowLayoutTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,17 +43,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		24704866188FEE010007589C /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2470486B188FEE010007589C /* XCTest.framework in Frameworks */,
-				2470486E188FEE010007589C /* UIKit.framework in Frameworks */,
-				2470486C188FEE010007589C /* Foundation.framework in Frameworks */,
-				24704871188FEE010007589C /* libDCTLeftAlignedFlowLayout.a in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -81,7 +50,6 @@
 			isa = PBXGroup;
 			children = (
 				2470485E188FEE010007589C /* DCTLeftAlignedFlowLayout */,
-				24704872188FEE010007589C /* DCTLeftAlignedFlowLayoutTests */,
 				2470485B188FEE010007589C /* Frameworks */,
 				2470485A188FEE010007589C /* Products */,
 			);
@@ -91,7 +59,6 @@
 			isa = PBXGroup;
 			children = (
 				24704859188FEE010007589C /* libDCTLeftAlignedFlowLayout.a */,
-				24704869188FEE010007589C /* DCTLeftAlignedFlowLayoutTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -115,24 +82,6 @@
 			path = DCTLeftAlignedFlowLayout;
 			sourceTree = "<group>";
 		};
-		24704872188FEE010007589C /* DCTLeftAlignedFlowLayoutTests */ = {
-			isa = PBXGroup;
-			children = (
-				24704878188FEE010007589C /* DCTLeftAlignedFlowLayoutTests.m */,
-				24704873188FEE010007589C /* Supporting Files */,
-			);
-			path = DCTLeftAlignedFlowLayoutTests;
-			sourceTree = "<group>";
-		};
-		24704873188FEE010007589C /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				24704874188FEE010007589C /* DCTLeftAlignedFlowLayoutTests-Info.plist */,
-				24704875188FEE010007589C /* InfoPlist.strings */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -152,24 +101,6 @@
 			productName = DCTLeftAlignedFlowLayout;
 			productReference = 24704859188FEE010007589C /* libDCTLeftAlignedFlowLayout.a */;
 			productType = "com.apple.product-type.library.static";
-		};
-		24704868188FEE010007589C /* DCTLeftAlignedFlowLayoutTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 2470487F188FEE010007589C /* Build configuration list for PBXNativeTarget "DCTLeftAlignedFlowLayoutTests" */;
-			buildPhases = (
-				24704865188FEE010007589C /* Sources */,
-				24704866188FEE010007589C /* Frameworks */,
-				24704867188FEE010007589C /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				24704870188FEE010007589C /* PBXTargetDependency */,
-			);
-			name = DCTLeftAlignedFlowLayoutTests;
-			productName = DCTLeftAlignedFlowLayoutTests;
-			productReference = 24704869188FEE010007589C /* DCTLeftAlignedFlowLayoutTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -193,21 +124,9 @@
 			projectRoot = "";
 			targets = (
 				24704858188FEE010007589C /* DCTLeftAlignedFlowLayout */,
-				24704868188FEE010007589C /* DCTLeftAlignedFlowLayoutTests */,
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXResourcesBuildPhase section */
-		24704867188FEE010007589C /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				24704877188FEE010007589C /* InfoPlist.strings in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		24704855188FEE010007589C /* Sources */ = {
@@ -218,34 +137,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		24704865188FEE010007589C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				24704879188FEE010007589C /* DCTLeftAlignedFlowLayoutTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		24704870188FEE010007589C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 24704858188FEE010007589C /* DCTLeftAlignedFlowLayout */;
-			targetProxy = 2470486F188FEE010007589C /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		24704875188FEE010007589C /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				24704876188FEE010007589C /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		2470487A188FEE010007589C /* Debug */ = {
@@ -348,44 +240,6 @@
 			};
 			name = Release;
 		};
-		24704880188FEE010007589C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "DCTLeftAlignedFlowLayout/DCTLeftAlignedFlowLayout-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "DCTLeftAlignedFlowLayoutTests/DCTLeftAlignedFlowLayoutTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Debug;
-		};
-		24704881188FEE010007589C /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "DCTLeftAlignedFlowLayout/DCTLeftAlignedFlowLayout-Prefix.pch";
-				INFOPLIST_FILE = "DCTLeftAlignedFlowLayoutTests/DCTLeftAlignedFlowLayoutTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -403,14 +257,6 @@
 			buildConfigurations = (
 				2470487D188FEE010007589C /* Debug */,
 				2470487E188FEE010007589C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		2470487F188FEE010007589C /* Build configuration list for PBXNativeTarget "DCTLeftAlignedFlowLayoutTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				24704880188FEE010007589C /* Debug */,
-				24704881188FEE010007589C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
