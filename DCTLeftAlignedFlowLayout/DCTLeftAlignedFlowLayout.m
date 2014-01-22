@@ -23,14 +23,14 @@
 
 	NSArray *attributesToReturn = [super layoutAttributesForElementsInRect:rect];
 
-    for (UICollectionViewLayoutAttributes *attributes in attributesToReturn)
-        if (attributes.representedElementCategory == UICollectionElementCategoryCell) {
-            NSIndexPath *indexPath = attributes.indexPath;
+	for (UICollectionViewLayoutAttributes *attributes in attributesToReturn)
+		if (attributes.representedElementCategory == UICollectionElementCategoryCell) {
+			NSIndexPath *indexPath = attributes.indexPath;
 			UICollectionViewLayoutAttributes *correctedAttributes = [self layoutAttributesForItemAtIndexPath:indexPath];
-            attributes.frame = correctedAttributes.frame;
-        }
+			attributes.frame = correctedAttributes.frame;
+		}
 
-    return attributesToReturn;
+	return attributesToReturn;
 }
 
 - (UICollectionViewLayoutAttributes *)layoutAttributesForItemAtIndexPath:(NSIndexPath *)indexPath {
@@ -38,8 +38,8 @@
 	UICollectionViewLayoutAttributes *attributes = self.cachedAttributes[indexPath];
 	if (attributes) return attributes;
 
-    attributes = [super layoutAttributesForItemAtIndexPath:indexPath];
-    CGRect frame = attributes.frame;
+	attributes = [super layoutAttributesForItemAtIndexPath:indexPath];
+	CGRect frame = attributes.frame;
 
 	CGRect previousFrame = CGRectZero;
 	if (indexPath.item > 0) {
@@ -55,9 +55,9 @@
 	else
 		frame.origin.x = CGRectGetMaxX(previousFrame) + self.minimumInteritemSpacing;
 
-    attributes.frame = frame;
+	attributes.frame = frame;
 	self.cachedAttributes[indexPath] = attributes;
-    return attributes;
+	return attributes;
 }
 
 @end
