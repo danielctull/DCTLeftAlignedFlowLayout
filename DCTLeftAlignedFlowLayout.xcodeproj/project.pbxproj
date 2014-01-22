@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2470485D188FEE010007589C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2470485C188FEE010007589C /* Foundation.framework */; };
+		24704862188FEE010007589C /* DCTLeftAlignedFlowLayout.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 24704861188FEE010007589C /* DCTLeftAlignedFlowLayout.h */; };
+		24704864188FEE010007589C /* DCTLeftAlignedFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 24704863188FEE010007589C /* DCTLeftAlignedFlowLayout.m */; };
+		2470486B188FEE010007589C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2470486A188FEE010007589C /* XCTest.framework */; };
+		2470486C188FEE010007589C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2470485C188FEE010007589C /* Foundation.framework */; };
+		2470486E188FEE010007589C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2470486D188FEE010007589C /* UIKit.framework */; };
+		24704871188FEE010007589C /* libDCTLeftAlignedFlowLayout.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 24704859188FEE010007589C /* libDCTLeftAlignedFlowLayout.a */; };
+		24704877188FEE010007589C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 24704875188FEE010007589C /* InfoPlist.strings */; };
+		24704879188FEE010007589C /* DCTLeftAlignedFlowLayoutTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 24704878188FEE010007589C /* DCTLeftAlignedFlowLayoutTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2470486F188FEE010007589C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 24704851188FEE010007589C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 24704858188FEE010007589C;
+			remoteInfo = DCTLeftAlignedFlowLayout;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		24704857188FEE010007589C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				24704862188FEE010007589C /* DCTLeftAlignedFlowLayout.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		24704859188FEE010007589C /* libDCTLeftAlignedFlowLayout.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libDCTLeftAlignedFlowLayout.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		2470485C188FEE010007589C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		24704860188FEE010007589C /* DCTLeftAlignedFlowLayout-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DCTLeftAlignedFlowLayout-Prefix.pch"; sourceTree = "<group>"; };
+		24704861188FEE010007589C /* DCTLeftAlignedFlowLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DCTLeftAlignedFlowLayout.h; sourceTree = "<group>"; };
+		24704863188FEE010007589C /* DCTLeftAlignedFlowLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DCTLeftAlignedFlowLayout.m; sourceTree = "<group>"; };
+		24704869188FEE010007589C /* DCTLeftAlignedFlowLayoutTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DCTLeftAlignedFlowLayoutTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2470486A188FEE010007589C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		2470486D188FEE010007589C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		24704874188FEE010007589C /* DCTLeftAlignedFlowLayoutTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DCTLeftAlignedFlowLayoutTests-Info.plist"; sourceTree = "<group>"; };
+		24704876188FEE010007589C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		24704878188FEE010007589C /* DCTLeftAlignedFlowLayoutTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DCTLeftAlignedFlowLayoutTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		24704856188FEE010007589C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2470485D188FEE010007589C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24704866188FEE010007589C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2470486B188FEE010007589C /* XCTest.framework in Frameworks */,
+				2470486E188FEE010007589C /* UIKit.framework in Frameworks */,
+				2470486C188FEE010007589C /* Foundation.framework in Frameworks */,
+				24704871188FEE010007589C /* libDCTLeftAlignedFlowLayout.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		24704850188FEE010007589C = {
+			isa = PBXGroup;
+			children = (
+				2470485E188FEE010007589C /* DCTLeftAlignedFlowLayout */,
+				24704872188FEE010007589C /* DCTLeftAlignedFlowLayoutTests */,
+				2470485B188FEE010007589C /* Frameworks */,
+				2470485A188FEE010007589C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2470485A188FEE010007589C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				24704859188FEE010007589C /* libDCTLeftAlignedFlowLayout.a */,
+				24704869188FEE010007589C /* DCTLeftAlignedFlowLayoutTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2470485B188FEE010007589C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2470485C188FEE010007589C /* Foundation.framework */,
+				2470486A188FEE010007589C /* XCTest.framework */,
+				2470486D188FEE010007589C /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2470485E188FEE010007589C /* DCTLeftAlignedFlowLayout */ = {
+			isa = PBXGroup;
+			children = (
+				24704861188FEE010007589C /* DCTLeftAlignedFlowLayout.h */,
+				24704863188FEE010007589C /* DCTLeftAlignedFlowLayout.m */,
+				2470485F188FEE010007589C /* Supporting Files */,
+			);
+			path = DCTLeftAlignedFlowLayout;
+			sourceTree = "<group>";
+		};
+		2470485F188FEE010007589C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				24704860188FEE010007589C /* DCTLeftAlignedFlowLayout-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		24704872188FEE010007589C /* DCTLeftAlignedFlowLayoutTests */ = {
+			isa = PBXGroup;
+			children = (
+				24704878188FEE010007589C /* DCTLeftAlignedFlowLayoutTests.m */,
+				24704873188FEE010007589C /* Supporting Files */,
+			);
+			path = DCTLeftAlignedFlowLayoutTests;
+			sourceTree = "<group>";
+		};
+		24704873188FEE010007589C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				24704874188FEE010007589C /* DCTLeftAlignedFlowLayoutTests-Info.plist */,
+				24704875188FEE010007589C /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		24704858188FEE010007589C /* DCTLeftAlignedFlowLayout */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2470487C188FEE010007589C /* Build configuration list for PBXNativeTarget "DCTLeftAlignedFlowLayout" */;
+			buildPhases = (
+				24704855188FEE010007589C /* Sources */,
+				24704856188FEE010007589C /* Frameworks */,
+				24704857188FEE010007589C /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DCTLeftAlignedFlowLayout;
+			productName = DCTLeftAlignedFlowLayout;
+			productReference = 24704859188FEE010007589C /* libDCTLeftAlignedFlowLayout.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		24704868188FEE010007589C /* DCTLeftAlignedFlowLayoutTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2470487F188FEE010007589C /* Build configuration list for PBXNativeTarget "DCTLeftAlignedFlowLayoutTests" */;
+			buildPhases = (
+				24704865188FEE010007589C /* Sources */,
+				24704866188FEE010007589C /* Frameworks */,
+				24704867188FEE010007589C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				24704870188FEE010007589C /* PBXTargetDependency */,
+			);
+			name = DCTLeftAlignedFlowLayoutTests;
+			productName = DCTLeftAlignedFlowLayoutTests;
+			productReference = 24704869188FEE010007589C /* DCTLeftAlignedFlowLayoutTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		24704851188FEE010007589C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Daniel Tull";
+			};
+			buildConfigurationList = 24704854188FEE010007589C /* Build configuration list for PBXProject "DCTLeftAlignedFlowLayout" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 24704850188FEE010007589C;
+			productRefGroup = 2470485A188FEE010007589C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				24704858188FEE010007589C /* DCTLeftAlignedFlowLayout */,
+				24704868188FEE010007589C /* DCTLeftAlignedFlowLayoutTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		24704867188FEE010007589C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24704877188FEE010007589C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		24704855188FEE010007589C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24704864188FEE010007589C /* DCTLeftAlignedFlowLayout.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24704865188FEE010007589C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24704879188FEE010007589C /* DCTLeftAlignedFlowLayoutTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		24704870188FEE010007589C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 24704858188FEE010007589C /* DCTLeftAlignedFlowLayout */;
+			targetProxy = 2470486F188FEE010007589C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		24704875188FEE010007589C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				24704876188FEE010007589C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2470487A188FEE010007589C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2470487B188FEE010007589C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2470487D188FEE010007589C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/DCTLeftAlignedFlowLayout.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DCTLeftAlignedFlowLayout/DCTLeftAlignedFlowLayout-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		2470487E188FEE010007589C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/DCTLeftAlignedFlowLayout.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DCTLeftAlignedFlowLayout/DCTLeftAlignedFlowLayout-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		24704880188FEE010007589C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DCTLeftAlignedFlowLayout/DCTLeftAlignedFlowLayout-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "DCTLeftAlignedFlowLayoutTests/DCTLeftAlignedFlowLayoutTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		24704881188FEE010007589C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DCTLeftAlignedFlowLayout/DCTLeftAlignedFlowLayout-Prefix.pch";
+				INFOPLIST_FILE = "DCTLeftAlignedFlowLayoutTests/DCTLeftAlignedFlowLayoutTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		24704854188FEE010007589C /* Build configuration list for PBXProject "DCTLeftAlignedFlowLayout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2470487A188FEE010007589C /* Debug */,
+				2470487B188FEE010007589C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2470487C188FEE010007589C /* Build configuration list for PBXNativeTarget "DCTLeftAlignedFlowLayout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2470487D188FEE010007589C /* Debug */,
+				2470487E188FEE010007589C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2470487F188FEE010007589C /* Build configuration list for PBXNativeTarget "DCTLeftAlignedFlowLayoutTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24704880188FEE010007589C /* Debug */,
+				24704881188FEE010007589C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 24704851188FEE010007589C /* Project object */;
+}
