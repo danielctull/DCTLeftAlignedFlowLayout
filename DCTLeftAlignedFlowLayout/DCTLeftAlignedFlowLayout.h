@@ -6,8 +6,7 @@
 //  Copyright (c) 2014 Daniel Tull. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+@import UIKit;
 
-@interface DCTLeftAlignedFlowLayout : NSObject
-
+@interface DCTLeftAlignedFlowLayout : UICollectionViewFlowLayout
 @end
