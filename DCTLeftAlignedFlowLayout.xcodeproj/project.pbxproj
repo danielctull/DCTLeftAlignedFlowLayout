@@ -44,7 +44,6 @@
 /* Begin PBXFileReference section */
 		24704859188FEE010007589C /* libDCTLeftAlignedFlowLayout.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libDCTLeftAlignedFlowLayout.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		2470485C188FEE010007589C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		24704860188FEE010007589C /* DCTLeftAlignedFlowLayout-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DCTLeftAlignedFlowLayout-Prefix.pch"; sourceTree = "<group>"; };
 		24704861188FEE010007589C /* DCTLeftAlignedFlowLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DCTLeftAlignedFlowLayout.h; sourceTree = "<group>"; };
 		24704863188FEE010007589C /* DCTLeftAlignedFlowLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DCTLeftAlignedFlowLayout.m; sourceTree = "<group>"; };
 		24704869188FEE010007589C /* DCTLeftAlignedFlowLayoutTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DCTLeftAlignedFlowLayoutTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -112,17 +111,8 @@
 			children = (
 				24704861188FEE010007589C /* DCTLeftAlignedFlowLayout.h */,
 				24704863188FEE010007589C /* DCTLeftAlignedFlowLayout.m */,
-				2470485F188FEE010007589C /* Supporting Files */,
 			);
 			path = DCTLeftAlignedFlowLayout;
-			sourceTree = "<group>";
-		};
-		2470485F188FEE010007589C /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				24704860188FEE010007589C /* DCTLeftAlignedFlowLayout-Prefix.pch */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		24704872188FEE010007589C /* DCTLeftAlignedFlowLayoutTests */ = {
@@ -293,6 +283,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				WARNING_CFLAGS = "-Weverything";
 			};
 			name = Debug;
 		};
@@ -325,6 +316,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
+				WARNING_CFLAGS = "-Weverything";
 			};
 			name = Release;
 		};
@@ -333,7 +325,6 @@
 			buildSettings = {
 				DSTROOT = /tmp/DCTLeftAlignedFlowLayout.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "DCTLeftAlignedFlowLayout/DCTLeftAlignedFlowLayout-Prefix.pch";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -345,7 +336,6 @@
 			buildSettings = {
 				DSTROOT = /tmp/DCTLeftAlignedFlowLayout.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "DCTLeftAlignedFlowLayout/DCTLeftAlignedFlowLayout-Prefix.pch";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
