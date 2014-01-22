@@ -23,12 +23,13 @@
 
 	NSArray *attributesToReturn = [super layoutAttributesForElementsInRect:rect];
 
-	for (UICollectionViewLayoutAttributes *attributes in attributesToReturn)
+	for (UICollectionViewLayoutAttributes *attributes in attributesToReturn) {
 		if (attributes.representedElementCategory == UICollectionElementCategoryCell) {
 			NSIndexPath *indexPath = attributes.indexPath;
 			UICollectionViewLayoutAttributes *correctedAttributes = [self layoutAttributesForItemAtIndexPath:indexPath];
 			attributes.frame = correctedAttributes.frame;
 		}
+	}
 
 	return attributesToReturn;
 }
