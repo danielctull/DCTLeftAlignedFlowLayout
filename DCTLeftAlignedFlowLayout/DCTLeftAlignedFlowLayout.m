@@ -8,7 +8,16 @@
 
 #import "DCTLeftAlignedFlowLayout.h"
 
+@interface DCTLeftAlignedFlowLayout ()
+@property (nonatomic) NSMutableDictionary *cachedAttributes;
+@end
+
 @implementation DCTLeftAlignedFlowLayout
+
+- (void)prepareLayout {
+	[super prepareLayout];
+	self.cachedAttributes = [NSMutableDictionary new];
+}
 
 - (NSArray *)layoutAttributesForElementsInRect:(CGRect)rect {
 
@@ -26,7 +35,10 @@
 
 - (UICollectionViewLayoutAttributes *)layoutAttributesForItemAtIndexPath:(NSIndexPath *)indexPath {
 
-    UICollectionViewLayoutAttributes *attributes = [super layoutAttributesForItemAtIndexPath:indexPath];
+	UICollectionViewLayoutAttributes *attributes = self.cachedAttributes[indexPath];
+	if (attributes) return attributes;
+
+    attributes = [super layoutAttributesForItemAtIndexPath:indexPath];
     CGRect frame = attributes.frame;
 
 	CGRect previousFrame = CGRectZero;
@@ -44,6 +56,7 @@
 		frame.origin.x = CGRectGetMaxX(previousFrame) + self.minimumInteritemSpacing;
 
     attributes.frame = frame;
+	self.cachedAttributes[indexPath] = attributes;
     return attributes;
 }
 
